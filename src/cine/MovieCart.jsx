@@ -9,7 +9,6 @@ export default function MovieCart({ movie }) {
   const [showModal, setShowModal] = useState(false);
   const [selectedMovie, setSelectedMovie] = useState(null);
   const { cartData } = useContext(MovieContext);
-  console.log(cartData);
 
   function handleAddToCart(event, movie) {
     event.stopPropagation();

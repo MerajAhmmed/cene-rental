@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import { getImgurl } from "../utils/cine-utility";
 
 export default function MovieDetailsModal({ movie, onClose }) {
